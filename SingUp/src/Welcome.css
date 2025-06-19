@@ -1,0 +1,57 @@
+
+/* Mobile-first styling */
+html,body {
+    height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f7f8fa;
+}
+
+.Welcome {
+  width: 100%;
+  max-width: 420px;
+  height: 100vh;
+  margin: 0 auto ;
+  background-color: white;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Welcome h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #222;
+}
+
+.Welcome p {
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 0.95rem;
+}
+
+.btn1,
+.btn2 {
+  width: 100%;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.btn1 {
+  background-color:rgb(55, 24, 210);
+  color: white;
+}
+
+.btn2 {
+  background-color: #e0cffe;
+  color: #4b0082;
+}
