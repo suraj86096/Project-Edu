@@ -1,0 +1,93 @@
+/* Login.css
+
+.Signin {
+  width: 100%;
+  max-width: 420px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 24px 16px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 16px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.Signin h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #222;
+}
+
+.Signin p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.Signin label {
+  font-size: 0.85rem;
+  color: #6a1b9a;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.Signin input {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Signin button {
+  background-color: #d9d9d9;
+  color: #333;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.inputWrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.inputWrapper input {
+  width: 100%;
+  padding: 14px 10px 6px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+
+
+
+
+.inputWrapper label {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  font-size: 0.9rem;
+  color: #8b28e0;
+  background-color: white;
+  transition: all 0.2s ease;
+  pointer-events: none;
+}
+
+/* When input is focused or filled */
+/* .inputWrapper input:focus + label,
+.inputWrapper input:valid + label {
+  top: -8px;
+  left: 8px;
+  font-size: 0.75rem;
+  padding: 0 4px;
+  color: #6a1b9a;
+} */ 
